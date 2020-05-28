@@ -106,7 +106,6 @@ const Form = () => {
             value={state.name}
             ref={register(formValid.name)}
           />
-          {errors.name && errors.lastname.message}
         </div>
         <div className="form-group">
           <label htmlFor="celphone">Teléfono/Celular</label>
